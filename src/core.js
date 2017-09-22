@@ -85,11 +85,14 @@ export default class ReactEcharts extends React.Component {
     };
     // for render
     return (
+      <div>
+        <h3>Echart Test Successfully changed</h3>
       <div
         ref={(e) => { this.echartsElement = e; }}
         style={style}
         className={this.props.className}
       />
+    </div>
     );
   }
 }
