@@ -78,6 +78,8 @@ export default class ReactEcharts extends React.Component {
   };
 
   render() {
+    console.log("echarts-for-react render");
+    alert("echarts-for-react-render");
     const style = this.props.style || {
       height: '300px'
     };
